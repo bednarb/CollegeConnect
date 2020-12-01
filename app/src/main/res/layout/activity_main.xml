@@ -110,6 +110,7 @@
         app:layout_constraintStart_toStartOf="@+id/guideline3">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/mail_bbe"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="#50ffffff"
@@ -135,6 +136,7 @@
         app:passwordToggleTint="#80000000">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/pass_bbe"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="#fff"

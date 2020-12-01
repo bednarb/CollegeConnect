@@ -104,7 +104,7 @@ public class Navigation extends AppCompatActivity implements BottomNavigationVie
         }
         builder = new MaterialAlertDialogBuilder(this);
         act = this;
-
+        // TODO : add here
         SaveSharedPreference.setUserName(this, FirebaseAuth.getInstance().getCurrentUser().getEmail());
 
         //Set initials and dp
